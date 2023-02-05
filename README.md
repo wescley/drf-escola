@@ -8,10 +8,12 @@ Exemplo de uso do django rest framework em um app de escola
 `venv\Scripts\activate.bat`
 
 ## 2.3. Instala o django e o django rest framework
-`pip install django`
-`pip install djangorestframework`
-`pip install markdown`
-`pip install django-filter`
+```
+pip install django
+pip install djangorestframework
+pip install markdown
+pip install django-filter
+```
 
 ## 2.4. Iniciando o servidor
 `python manage.py runserver`
