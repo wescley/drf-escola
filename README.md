@@ -3,7 +3,10 @@ Exemplo de uso do django rest framework em um app de escola
 
 # 2. Principais comandos
 ## 2.1. Cria uma máquina virtual python
-`python -m venv ./venv`
+```
+python -m venv ./venv
+```
+
 ## 2.2. Inicia a máquina virtual python
 `venv\Scripts\activate.bat`
 
@@ -22,8 +25,10 @@ pip install django-filter
 `django-admin startproject escola`
 
 ## 2.6. Cria as tabelas do banco de dados
-`python manage.py makemigrations`
-`python manage.py migrate`
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 
 ## 2.7. Cria o super usuário
 `python manage.py createsuperuser`
