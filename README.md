@@ -8,21 +8,24 @@ python -m venv ./venv
 ```
 
 ## 2.2. Inicia a máquina virtual python
-`venv\Scripts\activate.bat`
+```
+venv\Scripts\activate.bat
+```
 
 ## 2.3. Instala o django e o django rest framework
 ```
-pip install django
-pip install djangorestframework
-pip install markdown
-pip install django-filter
+pip install django, djangorestframework, markdown django-filter
 ```
 
 ## 2.4. Iniciando o servidor
-`python manage.py runserver`
+```
+python manage.py runserver
+```
 
 ## 2.5. Criar um projeto
-`django-admin startproject escola`
+```
+django-admin startproject escola
+```
 
 ## 2.6. Cria as tabelas do banco de dados
 ```
@@ -31,4 +34,6 @@ python manage.py migrate
 ```
 
 ## 2.7. Cria o super usuário
-`python manage.py createsuperuser`
+```
+python manage.py createsuperuser
+```
